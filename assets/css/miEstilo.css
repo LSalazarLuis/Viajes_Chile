@@ -1,0 +1,17 @@
+nav div a img{
+    width: 9%;
+}
+
+@media(max-width: 576px){
+    nav div{
+        text-align: center;
+    }
+
+    nav div a img{
+        width: 20%;
+    }
+
+    nav div button{
+        width: 100%;
+    }
+}
