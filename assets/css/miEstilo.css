@@ -43,3 +43,23 @@ main{
 .colorLetras{
     color: #fff;
 }
+
+.fondoCard{
+    background-color: #2a99a6;
+}
+
+.imgTarjetas{
+    width: 19rem;
+    height: 20rem;
+
+}
+
+footer{
+    background-color: #2a99a6;
+    height: 15rem;
+}
+
+footer i{
+    color: #fff;
+    font-size: 30px;
+}
