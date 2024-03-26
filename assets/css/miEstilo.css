@@ -23,3 +23,23 @@ nav div a img{
         width: 100%;
     }
 }
+
+main{
+    background-color: black;
+}
+
+.titulos{
+    color: white;
+    text-transform: uppercase;
+}
+
+.encabezado{
+    background-color: #2a99a6;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+.colorLetras{
+    color: #fff;
+}
