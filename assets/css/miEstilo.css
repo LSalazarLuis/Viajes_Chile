@@ -6,6 +6,7 @@ html{
 }
 nav a{
     color: #fff !important;
+    font-family: 'Roboto';
 }
 
 nav div a img{
@@ -33,6 +34,7 @@ main{
 .titulos{
     color: white;
     text-transform: uppercase;
+    font-family: 'Roboto';
 }
 
 .encabezado{
@@ -40,10 +42,12 @@ main{
     color: white;
     text-align: center;
     font-size: 30px;
+    font-family: 'Roboto';
 }
 
 .colorLetras{
     color: #fff;
+    font-family: 'Roboto';
 }
 
 .fondoCard{
@@ -63,3 +67,9 @@ footer i{
     color: #fff;
     font-size: 30px;
 }
+
+.custom-tooltip {
+    --bs-tooltip-bg: #0dcaf0;
+    --bs-tooltip-color: #fff;
+    font-size: 30px;
+  }

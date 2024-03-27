@@ -12,6 +12,13 @@
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/9863f7154c.js" crossorigin="anonymous"></script>
 
+    <!-- Google Fonts : Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
     <!-- Mi hoja de estilo CSS -->
     <link rel="stylesheet" href="./assets/css/miEstilo.css">
     <title>Viajes Chile</title>
@@ -94,7 +101,7 @@
 
                 <div class="row">
                     <div class="col-md-4 col-sm-12 py-3">
-                        <div class="encabezado">
+                        <div class="encabezado" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="¿Cómo Viajar?" data-bs-custom-class="custom-tooltip">
                             <i class="fa-solid fa-plane"></i>
                         </div>
                         <div class="colorLetras">
@@ -123,12 +130,12 @@
                                 voluptates incidunt illo cumque quis natus consequuntur nemo necessitatibus? Sunt amet
                                 ab enim officia vitae velit! Obcaecati, maxime.</p>
                         </div>
-                        <div class="encabezado">
+                        <div class="encabezado" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Experiencias" data-bs-custom-class="custom-tooltip">
                             <i class="fa-solid fa-mountain"></i>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-12 py-3">
-                        <div class="encabezado">
+                        <div class="encabezado" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Destinos" data-bs-custom-class="custom-tooltip">
                             <i class="fa-solid fa-route"></i>
                         </div>
                         <div class="colorLetras">
@@ -197,7 +204,8 @@
                             <div class="card-body">
                                 <p class="card-text colorLetras">
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe veritatis dicta, quas
-                                    voluptate vel facilis! Veniam placeat consequuntur omnis, quis vel enim odit provident
+                                    voluptate vel facilis! Veniam placeat consequuntur omnis, quis vel enim odit
+                                    provident
                                 </p>
                             </div>
                         </div>
@@ -214,17 +222,17 @@
             <form action="">
                 <div class="mb-3">
                     <label for="" class="form-label colorLetras">Nombre:</label>
-                    <input type="text" class="form-control" id="">
+                    <input type="text" class="form-control" id="txtNombre">
                 </div>
                 <div class="mb-3">
                     <label for="" class="form-label colorLetras">Asunto:</label>
-                    <input type="text" class="form-control" id="">
+                    <input type="text" class="form-control" id="txtAsunto">
                 </div>
                 <div class="mb-3">
                     <label for="" class="form-label colorLetras">Mensaje:</label>
-                    <textarea name="" id="" class="form-control" cols="50" rows="10"></textarea>
+                    <textarea name="" id="txtMensaje" class="form-control" cols="50" rows="10"></textarea>
                 </div>
-                <button type="submit" class="btn btn-info btn-lg colorLetras">Submit</button>
+                <button type="submit" class="btn btn-info btn-lg colorLetras" id="btnEnviar">Enviar</button>
             </form>
         </div>
     </main>
