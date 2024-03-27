@@ -1,7 +1,9 @@
 /* nav {
     background-color: #2a99a6;
 } */
-
+html{
+    scroll-behavior: smooth;
+}
 nav a{
     color: #fff !important;
 }
@@ -34,7 +36,7 @@ main{
 }
 
 .encabezado{
-    background-color: #2a99a6;
+    background-color: #0dcaf0;
     color: white;
     text-align: center;
     font-size: 30px;
@@ -45,18 +47,16 @@ main{
 }
 
 .fondoCard{
-    background-color: #2a99a6;
+    background-color: #0dcaf0;
 }
 
-.imgTarjetas{
-    width: 19rem;
-    height: 20rem;
-
+#destacado .container .row div div img{
+    height: 13rem;
 }
 
 footer{
-    background-color: #2a99a6;
-    height: 15rem;
+    background-color: #0dcaf0;
+    /* height: 15rem; */
 }
 
 footer i{

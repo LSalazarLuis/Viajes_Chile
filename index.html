@@ -33,16 +33,16 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Inicio</a>
+                        <a class="nav-link" href="#inicio">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Quienes Somos</a>
+                        <a class="nav-link" href="#quienes">Quienes Somos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Destacados</a>
+                        <a class="nav-link" href="#destacado">Destacados</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contacto</a>
+                        <a class="nav-link" href="#contacto">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -50,7 +50,7 @@
     </nav>
 
     <!-- Header con carousel -->
-    <header>
+    <header id="inicio">
         <div id="carouselPrincipal" class="carousel slide">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselPrincipal" data-bs-slide-to="0" class="active"
@@ -86,8 +86,8 @@
 
     <main>
         <!-- ¿quienes somos? -->
-        <section>
-            <div class="container">
+        <section id="quienes">
+            <div class="container d-none d-md-block">
                 <div class="py-5">
                     <h1 class="titulos text-center">¿quienes somos?</h1>
                 </div>
@@ -149,54 +149,57 @@
         </section>
 
         <!-- Destacados -->
-        <article>
+        <article id="destacado">
             <div class="container">
                 <div class="py-5">
                     <h1 class="titulos text-center">destacados</h1>
                 </div>
                 <div class="row">
                     <div class="col-md-3 col-sm-12 my-3">
-                        <div class="card" style="width: 19rem;">
-                            <img src="assets/img/card1.jpg" alt="img1" class="card-img-top imgTarjetas">
-                        </div>
-                        <div class="card-body">
-                            <p class="card-text colorLetras fondoCard p-3">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe veritatis dicta, quas
-                                voluptate vel facilis! Veniam placeat consequuntur omnis, quis vel enim odit provident
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-12 my-3">
-                        <div class="card" style="width: 19rem;">
-                            <img src="assets/img/card2.jpg" alt="img1" class="card-img-top imgTarjetas">
-                        </div>
-                        <div class="card-body">
-                            <p class="card-text colorLetras fondoCard p-3">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe veritatis dicta, quas
-                                voluptate vel facilis! Veniam placeat consequuntur omnis, quis vel enim odit provident
-                            </p>
+                        <div class="card fondoCard" style="width: 18rem;">
+                            <img src="assets/img/card1.jpg" alt="img1" class="card-img-top">
+                            <div class="card-body">
+                                <p class="card-text colorLetras">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe veritatis dicta, quas
+                                    voluptate vel facilis! Veniam placeat consequuntur omnis, quis vel enim odit
+                                    provident
+                                </p>
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-12 my-3">
-                        <div class="card" style="width: 19rem;">
-                            <img src="assets/img/card3.jpg" alt="img1" class="card-img-top imgTarjetas">
-                        </div>
-                        <div class="card-body">
-                            <p class="card-text colorLetras fondoCard p-3">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe veritatis dicta, quas
-                                voluptate vel facilis! Veniam placeat consequuntur omnis, quis vel enim odit provident
-                            </p>
+                        <div class="card fondoCard" style="width: 18rem;">
+                            <img src="assets/img/card2.jpg" alt="img1" class="card-img-top">
+                            <div class="card-body">
+                                <p class="card-text colorLetras">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe veritatis dicta, quas
+                                    voluptate vel facilis! Veniam placeat consequuntur omnis, quis vel enim odit
+                                    provident
+                                </p>
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-12 my-3">
-                        <div class="card" style="width: 18rem;">
-                            <img src="assets/img/card4.jpg" alt="img1" class="card-img-top imgTarjetas">
+                        <div class="card fondoCard" style="width: 18rem;">
+                            <img src="assets/img/card3.jpg" alt="img1" class="card-img-top">
+                            <div class="card-body">
+                                <p class="card-text colorLetras">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe veritatis dicta, quas
+                                    voluptate vel facilis! Veniam placeat consequuntur omnis, quis vel enim odit
+                                    provident
+                                </p>
+                            </div>
                         </div>
-                        <div class="card-body">
-                            <p class="card-text colorLetras fondoCard p-3">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe veritatis dicta, quas
-                                voluptate vel facilis! Veniam placeat consequuntur omnis, quis vel enim odit provident
-                            </p>
+                    </div>
+                    <div class="col-md-3 col-sm-12 my-3">
+                        <div class="card fondoCard" style="width: 18rem;">
+                            <img src="assets/img/card4.jpg" alt="img1" class="card-img-top">
+                            <div class="card-body">
+                                <p class="card-text colorLetras">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe veritatis dicta, quas
+                                    voluptate vel facilis! Veniam placeat consequuntur omnis, quis vel enim odit provident
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -204,7 +207,7 @@
         </article>
 
         <!-- formulario -->
-        <div class="container pb-5"> 
+        <div class="container pb-5" id="contacto">
             <div class="py-5">
                 <h1 class="titulos text-center">Contactanos</h1>
             </div>
@@ -221,30 +224,28 @@
                     <label for="" class="form-label colorLetras">Mensaje:</label>
                     <textarea name="" id="" class="form-control" cols="50" rows="10"></textarea>
                 </div>
-                <button type="submit" class="btn btn-info">Submit</button>
+                <button type="submit" class="btn btn-info btn-lg colorLetras">Submit</button>
             </form>
         </div>
     </main>
 
-    <footer>
+    <footer id="piePaguina">
         <div class="container">
-            <div class="row">
+            <div class="row py-5">
                 <div class="col-6">
                     <div>
-                        <p class="titulos m-0">viajes Chile</p>
+                        <p class="titulos m-0 fs-4">viajes Chile</p>
                     </div>
                 </div>
-                <div class="col-6 text-end position-absolute">
+                <div class="col-6 text-end">
                     <div>
-                        <i class="fa-brands fa-github mx-2"></i>
-                        <i class="fa-brands fa-linkedin mx-2"></i>
-                        <i class="fa-brands fa-twitter mx-2"></i>
-                        <i class="fa-brands fa-facebook mx-2"></i>
+                        <a href="https://github.com"><i class="fa-brands fa-github mx-2"></i></a>
+                        <a href="https://www.linkedin.com"><i class="fa-brands fa-linkedin mx-2"></i></a>
+                        <a href="https://twitter.com"><i class="fa-brands fa-twitter mx-2"></i></a>
+                        <a href="https://web.facebook.com"><i class="fa-brands fa-facebook mx-2"></i></a>
                     </div>
                 </div>
             </div>
-
-
         </div>
     </footer>
     <!-- JS Bootstrap v5.3.3 -->
