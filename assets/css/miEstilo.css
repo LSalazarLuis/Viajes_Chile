@@ -1,47 +1,48 @@
 /* nav {
     background-color: #2a99a6;
 } */
-html{
+html {
     scroll-behavior: smooth;
 }
-nav a{
+
+nav a {
     color: #fff !important;
     font-family: 'Roboto';
 }
 
-nav div a img{
+nav div a img {
     width: 9%;
 }
 
-.imagenCarousel{
-    aspect-ratio: 	3/2;
+.imagenCarousel {
+    aspect-ratio: 3/2;
 }
 
-@media(max-width: 576px){
-    nav div{
+@media(max-width: 576px) {
+    nav div {
         text-align: center;
     }
 
-    nav div a img{
+    nav div a img {
         width: 20%;
     }
 
-    nav div button{
+    nav div button {
         width: 100%;
     }
 }
 
-main{
+main {
     background-color: black;
 }
 
-.titulos{
+.titulos {
     color: white;
     text-transform: uppercase;
     font-family: 'Roboto';
 }
 
-.encabezado{
+.encabezado {
     background-color: #0dcaf0;
     color: white;
     text-align: center;
@@ -49,25 +50,25 @@ main{
     font-family: 'Roboto';
 }
 
-.colorLetras{
+.colorLetras {
     color: #fff;
     font-family: 'Roboto';
 }
 
-.fondoCard{
+.fondoCard {
     background-color: #0dcaf0;
 }
 
-#destacado .container .row div div img{
+#destacado .container .row div div img {
     height: 13rem;
 }
 
-footer{
+footer {
     background-color: #0dcaf0;
     /* height: 15rem; */
 }
 
-footer i{
+footer i {
     color: #fff;
     font-size: 30px;
 }
@@ -76,4 +77,16 @@ footer i{
     --bs-tooltip-bg: #0dcaf0;
     --bs-tooltip-color: #fff;
     font-size: 30px;
-  }
+}
+
+@media(max-width: 576px) {
+
+    footer i {
+        font-size: 15px;
+    }
+
+    #tituloFinal{
+        font-size: 15px;
+    }
+
+}
